@@ -1,0 +1,15 @@
+git实用规范
+
+1. 四个分支， master, stable, develop, mydevelop
+
+2. 常规开发在mydevelop上进行，此分支不允许上传至服务器，且要求小步提交，并合并至develop分支，
+
+3. develop分支用于多人开发时的合并，拉取别人提交的代码或者提交自己的代码，还有从mydevelop分支合并自己完成的功能代码。
+	
+每天至少一次拉取和提交
+
+4. stable分支用于每次的release版本时，需要从develop合并至stable分支，生成一个tag
+
+5. 当版本最终稳定下来，合并至master，并生成一个tag
+
+6. bug分支，要求从develop分支上衍生，改正没问题后合并到develop分支，并删除bug分支
