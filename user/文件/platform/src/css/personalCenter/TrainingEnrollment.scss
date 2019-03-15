@@ -1,0 +1,28 @@
+._TrainingEnrollmentl_information{
+  width:87%;
+  padding: 2.1% 0 0 28px;
+  ._TrainingEnrollmentl_information_header{
+    font-size: 24px;
+    color: #936A1E;
+    margin: 1.3% 0;
+  }
+  ._personnel_information{
+    display: flex;
+    justify-content: space-between;
+    .ant-form{
+      margin-left: 8%;
+    }
+  }
+  ._TrainingEnrollmentl_information_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    button{
+      width: 200px;
+      height: 40px;
+      background-image: linear-gradient(-180deg, #F8A374 0%, #E78047 100%);
+      border: 1px solid #EEA277;
+      border-radius: 1px;
+    }
+  }
+}

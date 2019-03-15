@@ -1,0 +1,38 @@
+._successful_payment{
+  width: 1200px;
+  background-color: #FEFEF4;
+  margin: 4% 0 10% 17%;
+  -webkit-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  -moz-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  h3{
+    padding: 2% 0 0 4.2%;
+    display: flex;
+    margin-bottom: 10px;
+    img{
+      width: 38px;
+      height: 38px;
+    }
+    span{
+      line-height: 38px;
+      margin-left: 20px;
+      font-size: 24px;
+      color: #296F2C;
+    }
+  }
+  p{
+    &:nth-last-child(2){
+      margin-left: 9%;
+    }
+    &:nth-last-child(1){
+      width: 90%;
+      font-size: 16px;
+      text-align: right;
+      margin-top: 16.1%;
+      padding-bottom: 3.7%;
+      span{
+        color: #d62400;
+      }
+    }
+  }
+}

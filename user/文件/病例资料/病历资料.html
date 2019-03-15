@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      body,html,.App{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .App{
+        display: flex;
+        flex-direction: column;
+      }
+      .App-header{
+        width: 100%;
+        height: 44px;
+        border-bottom: 1px solid #000;
+        display: flex;
+      }
+      .App-header p{
+        text-align: center;
+        line-height: 44px;
+      }
+      .App-header p i{
+        font-size: 22px;
+      }
+      .App-header p:nth-child(1){
+        width: 10%;
+      }
+      .App-header p:nth-child(2){
+        width: 80%;
+      }
+      .App-header p:nth-child(3){
+        width: 10%;
+        display: none;
+      }
+
+      section{
+        flex: 1;
+      }
+      ._service_type>div{
+        display: flex;
+        height: 35px;
+        border: 1px solid #000;
+        margin-top: 13px;
+        line-height: 35px;
+      }
+      ._service_type{
+        position: relative;
+      }
+      ._service_type ul{
+        width: 100%;
+        position: absolute;
+        left:0;
+        background-color: #fff;
+      }
+      ._service_type ul li{
+        width: 100%;
+        line-height: 45px;
+        border-bottom: 1px solid #000;
+        padding-left:6px;
+      }
+      ._service_type p{
+        width: 94%;
+        border-right: 1px solid #000;
+        padding-left: 6px;
+      }
+      ._service_type i{
+        width: 6%;
+        background: url('./img/arrow_32px_1167900_easyicon.net.ico') no-repeat;
+        background-size: 60%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+      }
+      section>ul{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      section>ul li{
+        width: 28%;
+        margin-left: 2.5%;
+        margin-top: 18px;
+      }
+      section>ul li img{
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      section>ul li>div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      section>ul li p{
+        line-height: 44px;
+        padding-left: 5px;
+        text-align: center;
+      }
+      .block{
+        display:block;
+      }
+      .changeOn{
+        display: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="App">
+      <header class="App-header">
+          <p><Icon type="arrow-left" /></p>
+          <p>病例资料</p>
+          <p><Icon type="plus" /></p>
+        </header>
+        <section>
+          <div class="_service_type">
+            <div id="changeDrap">
+              <p id="drapdown">选择服务类型</p>
+              <i></i>
+            </div>
+            <ul id="uls" class="changeOn">
+              <li>选项1</li>
+              <li>选项2</li>
+              <li>选项3</li>
+            </ul>
+          </div>
+          <ul>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>2018-5B超</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>2018-5B超</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>2018-5B超</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>2018-5B超</p>
+            </li>
+            <li>
+              <div><img src="./img/u=2756476931,3937844777&fm=26&gp=0.jpg"/></div>
+              <p>用药单据</p>
+            </li>
+            <li>
+              <div><img src="./img/u=560310599,3006867296&fm=26&gp=0.jpg"/></div>
+              <p>用药单据</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>2018-5B超</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>用药单据</p>
+            </li>
+            <li>
+              <div><img src="./img/u=3205470526,1518785822&fm=26&gp=0.jpg"/></div>
+              <p>用药单据</p>
+            </li>
+          </ul>
+        </section>
+    </div>
+    <script>
+      let changeDrap = document.getElementById('changeDrap'),
+          drapdown = document.getElementById('drapdown'),
+          uls = document.getElementById('uls'),
+          liCount = uls.getElementsByTagName('li');
+      changeDrap.onclick = function (){
+        if(uls.className === 'changeOn'){
+          uls.className = '';
+        }else{
+          uls.className = 'changeOn';
+        }
+      }
+      for(let i=0;i<liCount.length;i++){
+        liCount[i].index = i;
+        liCount[i].onclick = function(){
+          drapdown.innerHTML = liCount[i].innerHTML;
+          uls.className = 'changeOn';
+        }
+      }
+    </script>
+</body>
+</html>

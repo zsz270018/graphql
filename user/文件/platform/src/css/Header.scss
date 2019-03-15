@@ -1,0 +1,97 @@
+.header{
+  width: 100%;
+  height: 142px;
+  display: flex;
+  align-items: center;
+  .header_icon{
+    display: flex;
+    align-items: center;
+    margin:0.9% 0 0.7% 14.1%;
+    span{
+      width: 90px;
+      height: 90px;
+      background: url('../images//3x//logo.png') no-repeat;
+      background-size: 90px;
+    }
+    p{
+      width: 285px;
+      font-size: 28px;
+      color: #9B981E;
+      line-height: 40px;
+      margin-left: 18.5px;
+      margin-top: 20px;
+    }
+  }
+  ._header_from{
+    margin-left: 3%;
+    .ant-select-selection{
+      height : 48px;
+      .ant-select-selection-selected-value{
+        line-height : 48px;
+      }
+    }
+    .ant-select-selection__rendered{
+      height : 48px;
+      .ant-input{
+        height : 48px;
+      }
+    }
+    .ant-btn{
+      height : 48px;
+    }
+  }
+  ._header_login{
+    display: flex;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 14px;
+    ._header_login_click{
+      width: 100%;
+      margin-top: 14px;
+      display: flex;
+      font-size: 20px;
+      a{
+        text-decoration: none;
+        color : #000;
+      }
+      p:first-child::after{
+        content: "";
+        display: block;
+        width: 2px;
+        height: 20px;
+        background-color: #000;
+        margin:6px 8px 0 8px;
+      }
+      p:first-child{
+        display: flex;
+      }
+    }
+    ._header_personal_center{
+      position: relative;
+      ._header_login_img{
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        img{
+          width: 100%;
+        }
+      }
+      ._header_personal_center_drapDown{
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #eee;
+        font-size: 12px;
+        display: none;
+        span{
+          line-height: 30px;
+        }
+      }
+      ._center_drapDown_block{
+        display: block;
+      }
+    }
+  }
+}

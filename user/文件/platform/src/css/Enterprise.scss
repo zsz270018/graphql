@@ -1,0 +1,170 @@
+._enterprise_register{
+  width: 70%;
+  margin-left: 17%;
+  background-color: #fff;
+  margin-top: 35px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.30);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ._enterprise_register_tab{
+    width: 84.4%;
+    border-bottom: 1px solid #D2D2D2;
+    ul{
+      display: flex;
+      margin-bottom: 0;
+      li{
+        display: flex;
+        width: 33.3%;
+        line-height: 20px;
+        span{
+          width: 20px;
+          height: 20px;
+          background: #BFBFBF;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 20px;
+          margin-right: 11px;
+          color :#fff;
+        }
+      }
+    }
+  }
+  .widthFrom{
+    width: 60%;
+  }
+  ._enterprise_register_from{
+    display: flex;
+    ._enterprise_register_from_one{
+      width: 100%;
+      margin-top: 60px;
+      text-align: center;
+      overflow: hidden;
+      .ant-form-item-label{
+        display: inline-block;
+        margin-right: 37px;
+      }
+      .ant-form-item-control-wrapper{
+        width: 50%;
+        display: inline-block;
+      }
+      .ant-form-item{
+        margin-bottom: 20px;
+      }
+      button{
+        width: 200px;
+        height: 40px;
+        background-image: linear-gradient(-180deg, #F8A374 0%, #E78047 100%);
+        border: 1px solid #EEA277;
+        border-radius: 1px;
+        margin: 22px 0;
+      }
+    }
+    ._enterprise_register_from_two{
+      display: none;
+      margin-top: 60px;
+      .ant-form-item{
+        display: flex;
+      }
+      .ant-form-item-label{
+        width: 60%;
+        margin-right: 20px;
+      }
+      .ant-form-item-required{
+        font-size: 18px;
+        color: #151515;
+        letter-spacing: 0.77px;
+        line-height: 25px;
+        font-weight: 400;
+      }
+      ._from_upload{
+        display: flex;
+      }
+      ._register_from_uploader{
+        margin-left: 50px;
+      }
+      .ant-upload-select-picture-card{
+        width: 140px;
+        height: 140px;
+        background: #FDFDFD;
+        border: 1px solid #D2D2D2;
+        box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.06);
+        border-radius: 2px;
+        .ant-upload{
+          padding: 0;
+          position: relative;
+        }
+        .ant-upload>div{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          i,span,em{
+            width: 60px;
+            height: 48px;
+            display: block;
+            margin-bottom: 20px;
+          }
+          i{
+            background: url('../images/3x/分组.png') no-repeat;
+          }
+          span{
+            background: url('../images/3x/分组\ 4.png') no-repeat;
+          }
+          em{
+            background: url('../images/3x/形状.png') no-repeat;
+          }
+          p{
+            width: 100%;
+            text-align: left;
+            position: absolute;
+            top: 8px;
+            left:6px;
+            font-size: 12px;
+            color: #BFBFBF;
+          }
+          div{
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            background-image: linear-gradient(-180deg, #EFEFEF 0%, #FFFFFF 100%);
+            border: 1px solid #D2D2D2;
+            box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.06);
+            border-radius: 2px;
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+      button{
+        width: 200px;
+        height: 40px;
+        background-image: linear-gradient(-180deg, #F8A374 0%, #E78047 100%);
+        border: 1px solid #EEA277;
+        border-radius: 1px;
+        position: relative;
+        left: 50%;
+        margin-top: 60px;
+        margin-bottom: 125px;
+      }
+    }
+    .ant-form-explain{
+      width: 100%;
+    }
+  }
+}
+._enterprise_register_animationClick{
+  // transition: .5s;
+  // transform: translate(-300%,0px);
+  display: none;
+}
+._register_active{
+  background: #F1925D!important;
+}
+._enterprise_register_from_dis{
+  display: block!important;
+}
+._enterprise_register_from_three{
+  width: 100%;
+  display: none;
+}

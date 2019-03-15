@@ -1,0 +1,92 @@
+._personal_register{
+  width: 70%;
+  display: flex;
+  margin-left: 17%;
+  background-color: #fff;
+  margin-top: 35px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.30);
+  padding-top: 40px;
+  ._personal_register_left{
+    width: 70%;
+    padding-bottom: 10%;
+    .ant-form>div{
+      width: 60%;
+    }
+    .ant-form-item{
+      margin-bottom: 0;
+    }
+    .ant-form-explain{
+      width: 160%;
+      font-size: 10px;
+    }
+    .ant-form{
+      text-align: left;
+      .ant-col-12{
+        width: 28%;
+        .ant-btn{
+          background-image: linear-gradient(-180deg, #FBAF85 0%, #F1925D 100%);
+          border: 1px solid #EEA277;
+          border-radius: 1px;
+          font-family: PingFangSC-Regular;
+          font-size: 14px;
+          color: #FFFFFF;
+          letter-spacing: 0;
+        }
+      }
+      ._register_left_from{
+        display: flex;
+        margin-top: 10%;
+        .ant-form-item{
+          text-align: right;
+          margin-right: 30%;
+          .ant-btn-primary{
+            width: 200px;
+            height: 40px;
+            background: #BFBFBF;
+            border-radius: 1px;
+          }
+        }
+        .ant-col-sm-offset-8{
+          width: 320px;
+          margin-left: 20%;
+          .ant-checkbox-wrapper{
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            letter-spacing: 0;
+            a{
+              color: #936A1E!important;
+            }
+          }
+        }
+      }
+    }
+  }
+  ._register_Scribing{
+    width: 2px;
+    height: 400px;
+    background: #D2D2D2;
+    margin-top: 5%;
+  }
+  ._personal_register_right{
+    width: 30%;
+    text-align: center;
+    padding-top: 5%;
+    h3{
+      font-family: STHeitiSC-Medium;
+      font-size: 20px;
+      color: #296F2C;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+    button{
+      width: 200px;
+      height: 40px;
+      background-image: linear-gradient(-180deg, #7CBC2E 0%, #429321 100%);
+      border-radius: 0;
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      margin-top: 2.2%;
+    }
+  }
+}

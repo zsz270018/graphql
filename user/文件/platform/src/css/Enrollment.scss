@@ -1,0 +1,51 @@
+._Training_enrollment{
+  width: 1200px;
+  background-color: #fefef4;
+  margin-left: 17%;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  -moz-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  ._Training_enrollment_title{
+    display: flex;
+    line-height: 73px;
+    h3{
+      width: 50%;
+      font-family: PingFangSC-Medium;
+      font-size: 24px;
+      color: #296F2C;
+      letter-spacing: 0;
+      margin-left: 20px;
+    }
+    p{
+    width: 50%;
+    text-align: right;
+    margin-right: 18px;
+    }
+  }
+  ._Training_enrollment_content{
+    display: flex;
+    dl{
+      width: 270px;
+      margin: 0 10px 0 17px;
+      dd{
+        h3{
+          font-family: PingFangSC-Medium;
+          font-size: 18px;
+          color: #936A1E;
+          letter-spacing: 0;
+          line-height: 39px;
+        }
+        p{
+          line-height: 32px;
+          font-size: 18px;
+          color: #666666;
+          span{
+            font-size: 18px;
+            color: #B30404;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+._star_team{
+  width: 1200px;
+  margin-left: 17%;
+  position: relative;
+  ._star_team_tab{
+    width: 96.5%;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0;
+    border-bottom: 4px solid #936A1E;
+    margin: 30px 0 0 0;
+    li{
+      width: 16.666%;
+      background-color:#c8b38b;
+      color : #fff;
+      text-align: center;
+      &:nth-child(1){
+        border-radius: 38px 0px 0px 0px;
+      }
+      &:nth-last-child(1){
+        border-radius: 0px 38px 0px 0px;
+      }
+    }
+    ._team_tab_hover{
+      background: #936A1E;
+    }
+  }
+  ._star_team_tabContent{
+    display: flex;
+    flex-wrap: wrap;
+    dl{
+      width: 30%;
+      margin: 30px 3.3% 0 0 ;
+      display: flex;
+      background-color: #fff;
+      padding-top: 18px;
+      box-shadow: 0 5px 8px 0 rgba(0,0,0,0.30);
+      border-radius: 5px;
+      dt{
+        width: 55%;
+        text-align: center;
+        img{
+          width: 85%;
+        }
+      }
+      dd{
+        width: 45%;
+        text-align: left;
+        h3{
+          font-size: 18px;
+          color: #936A1E;
+        }
+        p{
+          line-height: 23px;
+        }
+        i{
+          color: #E38049;
+        }
+      }
+    }
+  }
+  ._location_left{
+    width: 100px;
+    height: 209px;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 5px;
+    position: fixed;
+    top: 236px;
+    left: 0;
+    ._left_top,._left_bom{
+      height: 104px;
+      line-height: 104px;
+    }
+    ._left_top{
+      border-bottom: 1px solid #d8d8d8;
+    }
+  }
+  ._location_right_QRCode{
+    margin-left: 18.8%;
+    position: fixed;
+    top: 357px;
+    left: 1131px;
+    img{
+      width: 180px;
+      height: 210px;
+    }
+  }
+  ._location_right_Telephone{
+    width: 307px;
+    height: 106px;
+    margin-left: 18.8%;
+    position: fixed;
+    top: 226px;
+    left: 1131px;
+    background: url('../images//3x//dianhua.png') no-repeat;
+    background-size: 307px;
+    padding-left: 80px;
+    h3{
+      font-size: 20px;
+      color: #999999;
+      margin-top: 17px;
+    }
+    p{
+      font-family: MicrosoftYaHei;
+      font-size: 30px;
+      color: #609719;
+      line-height: 30px;
+    }
+  }
+}

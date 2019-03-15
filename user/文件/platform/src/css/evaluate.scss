@@ -1,0 +1,147 @@
+._evaluate{
+  // width: 62.4%;
+  width: 1200px;
+  margin-left: 17%;
+  ul{
+    display: flex;
+    padding-top: 81px;
+    >li{
+      width: 18%;
+      position: relative;
+      margin: 0 1% 0 1%;
+      i{
+        width: 131px;
+        height: 120px;
+        display: block;
+        position: absolute;
+        top: -60px;
+        left: 65px;
+        margin-left: -20px;
+      }
+      ._grade_evaluation_content{
+        padding-left: 5px;
+        margin-bottom: 8px;
+        h4{
+          text-align: center;
+          line-height: 60px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        p{
+          font-weight: 700;
+          margin: 10px 0 0 0;
+        }
+        ol{
+          padding: 15px 8px 15px 15px;
+          border-bottom: 1px dashed #F15155;
+          &:nth-last-child(1){
+            border: none;
+          }
+          li{
+            list-style-type:decimal;
+            margin: 4px 0;
+          }
+        }
+        &:nth-child(2){
+          border-radius: 50px 50px 0px 0px;
+          padding-top: 20%;
+        }
+        &:nth-last-child(1){
+          border-radius: 0px 0px 50px 50px;
+        }
+      }
+      &:nth-child(1){
+        i{
+          background: url('../images//evaluate//分组\ 44.png');
+          background-size: 131px;
+        }
+        ._grade_evaluation_content{
+          background: #FEE2E2;
+          h4{
+            color: #8F1915;
+          }
+        }
+      }
+      &:nth-child(2){
+        i{
+          background: url('../images//evaluate/分组\ 47.png');
+          background-size: 131px;
+        }
+        ._grade_evaluation_content{
+          background: #FEF0E2;
+          h4{
+            color: #CF8200;
+          }
+        }
+      }
+      &:nth-child(3){
+        i{
+          background: url('../images//evaluate/分组\ 2.png');
+          background-size: 131px;
+        }
+        ._grade_evaluation_content{
+          background: #FEF8E2;
+          h4{
+            color: #D7B000;
+          }
+        }
+      }
+      &:nth-child(4){
+        i{
+          background: url('../images//evaluate/分组\ 44\ copy\ 2.png');
+          background-size: 131px;
+        }
+        ._grade_evaluation_content{
+          background: #F3F6D4;
+          h4{
+            color: #7C8800;
+          }
+        }
+      }
+      &:nth-child(5){
+        i{
+          background: url('../images//evaluate/分组\ 44\ copy\ 3.png');
+          background-size: 131px;
+        }
+        ._grade_evaluation_content{
+          background: #DDF5DE;
+          h4{
+            color: #488900;
+          }
+        }
+      }
+    }
+  }
+  ._location_right_QRCode{
+    margin-left: 17%;
+    position: fixed;
+    top: 401px;
+    left: 1188px;
+    img{
+      width: 180px;
+      height: 210px;
+    }
+  }
+  ._location_right_Telephone{
+    width: 307px;
+    height: 106px;
+    margin-left: 17%;
+    position: fixed;
+    top: 226px;
+    left: 1188px;
+    background: url('../images//3x//dianhua.png') no-repeat;
+    background-size: 307px;
+    padding-left: 80px;
+    h3{
+      font-size: 20px;
+      color: #999999;
+      margin-top: 17px;
+    }
+    p{
+      font-family: MicrosoftYaHei;
+      font-size: 30px;
+      color: #609719;
+      line-height: 30px;
+    }
+  }
+}

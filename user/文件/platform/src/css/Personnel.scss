@@ -1,0 +1,80 @@
+._personnel_information{
+  margin-top: 59px;
+  display: flex;
+  flex-wrap: wrap;
+  .ant-select-selection--single{
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(-180deg, #EFEFEF 0%, #FFFFFF 100%);
+    border: 1px solid #D2D2D2;
+    box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.06);
+    padding-left: 13px;
+    .ant-select-selection__rendered{
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  ._information_Photo{
+    margin-left: 8.6%;
+    .ant-upload-select-picture-card{
+      width: 140px;
+      height: 140px;
+      background: #FDFDFD;
+      border: 1px solid #D2D2D2;
+      box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.06);
+      border-radius: 2px;
+      position: relative;
+    }
+    .ant-upload>div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      i{
+        width: 60px;
+        height: 48px;
+        display: block;
+        margin-bottom: 20px;
+        background: url('../images/3x/zhaopian.png');
+      }
+      div{
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        background-image: linear-gradient(-180deg, #EFEFEF 0%, #FFFFFF 100%);
+        border: 1px solid #D2D2D2;
+        box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.06);
+        font-size: 16px;
+        color: #666666;
+      }
+    }
+  }
+  ._information_btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    button{
+      background-image: linear-gradient(-180deg, #F8A374 0%, #E78047 100%);
+      border: 1px solid #EEA277;
+      border-radius: 1px;
+    }
+    form{
+      margin-top: 7px;
+      .ant-col-sm-offset-8{
+        margin-left: 20%;
+      }
+    }
+    .ant-checkbox-wrapper{
+      a{
+        font-size: 16px;
+        color: #936A1E;
+      }
+    }
+  }
+  form{
+    .ant-form-item{
+      margin-bottom: 20px;
+    }
+  }
+}

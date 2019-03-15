@@ -1,0 +1,37 @@
+._Understand_us{
+  width: 1199px;
+  margin-left: 17%;
+  display: flex;
+  ._Understand_us_left{
+    width: 269px;
+    flex: 1;
+    background: #FEFEF4;
+    ul{
+      width: 229px;
+      text-align: center;
+      a{
+        color: #FFFFFF;
+        li{
+          height: 60px;
+          line-height: 60px;
+          background: #C8B38B;
+          margin-top: 14px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  ._Understand_us_right{
+    width: 925px;
+    background-color: #fff;
+    margin-left: 5px;
+  }
+  ._Understand_us_right,._Understand_us_left{
+    -webkit-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 10px -6px rgba(0,0,0,0.30);
+  }
+}
+.tabCar{
+  background: #936A1E!important;
+}

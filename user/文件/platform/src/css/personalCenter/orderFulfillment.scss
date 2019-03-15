@@ -1,0 +1,179 @@
+._order_fulfillment{
+  padding: 2.1% 0 0 0;
+  h3{
+    font-size: 24px;
+    color: #936A1E;
+  }
+  h3,._order_classification,._unfinished_evaluation_order,._order_fulfillment_complete_evaluation_order{
+    padding-left: 28px;
+  }
+  ._order_classification{
+    display: flex;
+    border-bottom: 1px solid #936A1E;
+    li{
+      width: 23%;
+      height: 40px;
+      line-height: 40px;
+      background-color: #EFEFEF;
+      text-align: center;
+      font-size: 16px;
+      &:nth-child(1){
+        border-radius: 38px 0 0 0;
+      }
+      &:nth-child(2){
+        border-radius: 0 38px 0 0;
+      }
+    }
+    ._order_classification_hover{
+      background: #936A1E;
+      color : #fff;
+    }
+  }
+  ._order_fulfillment_unfinished_evaluation_order{
+    display: none;
+    ._unfinished_evaluation_order{
+      display: flex;
+      a{
+        display: flex;
+        width: 47%;
+        color: #333333;
+        dl{
+          display: flex;
+          flex-wrap: wrap;
+          border: 1px solid #AB9468;
+          padding-bottom: 11px;
+          margin-right: 3%;
+          h4{
+            width: 100%;
+            height: 44px;
+            background-color: #e1d9ca;
+            display: flex;
+            line-height: 44px;
+            font-weight: 700;
+            margin-bottom: 11px;
+            span{
+              font-size: 16px;
+              &:nth-child(1){
+                width: 90%;
+                padding-left: 16px;
+              }
+              &:nth-child(2){
+                width: 10%;
+              }
+            }
+          }
+          dt{
+            width: 30%;
+            text-align: center;
+            padding-left: 13px;
+            margin-right: 14px;
+            img{
+              width: 95%;
+              border: 1px solid #DCDCDC;
+            }
+          }
+          dd{
+            p{
+              line-height: 35px;
+              &:nth-child(2){
+                display: flex;
+                span{
+                  width: 50%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    ._no_order{
+      text-align: center;
+      p{
+        margin-top: 10%;
+        font-size: 20px;
+        color: #333333;
+      }
+    }
+    ._no_order_hover{
+      display: none;
+    }
+  }
+  ._order_fulfillment_complete_evaluation_order{
+    display: none;
+    ._unfulfilled_order_content{
+      padding-left: 0;
+      width: 95%;
+      li{
+        border: 1px solid #AB9468;
+        margin-bottom: 20px;
+        ._unfulfilled_order_content_li_time{
+          display: flex;
+          height: 44px;
+          line-height: 44px;
+          background-color: #e1d9ca;
+          padding-left: 16px;
+          p{
+            width: 48%;
+            font-size: 18px;
+            color: #333333;
+            font-weight: 700;
+          }
+          h4{
+            font-size: 18px;
+            color: #333333;
+            font-weight: 700;
+          }
+        }
+      }
+      ._unfulfilled_order_content_li_content{
+        display: flex;
+        padding: 14px 0;
+        dl{
+          width: 45%;
+          display: flex;
+          border-right: 1px solid #AB9468;
+          margin-bottom: 0;
+          dt{
+            width: 37%;
+            text-align: center;
+            padding-left: 5px;
+            margin-right: 5px;
+            img{
+              width: 90%;
+              border: 1px solid #dcdcdc;
+            }
+          }
+          dd{
+            width: 63%;
+            p{
+              line-height: 35px;
+              &:nth-last-child(2){
+                span{
+                  &:nth-last-child(1){
+                    margin-left: 30%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      ._unfulfilled_order_content_li_content_details{
+        width: 55%;
+        padding: 0 14px;
+        font-size: 18px;
+        font-weight: 550;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // text-overflow: ellipsis;
+      }
+    }
+    .ant-pagination {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+  ._evaluation_order{
+    display: block;
+  }
+}
