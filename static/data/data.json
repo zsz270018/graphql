@@ -1,0 +1,73 @@
+[{
+    "id":1,
+    "name":"家政公司家政公司",
+    "code":"给大家",
+    "statutory":"张三",
+    "phone":"男",
+    "open":"15369879974",
+    "account":"海地区上地5街",
+    "number":22,
+    "state":"营业",
+    "date":"2012-05-14",
+    "img":"http://www.pptbz.com/pptpic/UploadFiles_6909/201211/2012111719294197.jpg"
+},{
+    "id":2,
+    "name":"清洁公司",
+    "code":"定个时间",
+    "statutory":"王五",
+    "phone":"男",
+    "open":"456456987853",
+    "account":"好的好时机",
+    "number":22,
+    "state":"营业",
+    "date":"2012-05-14",
+    "img":"http://img1.imgtn.bdimg.com/it/u=1233278727,1565848090&fm=26&gp=0.jpg"
+},{
+    "id":3,
+    "name":"家政公司",
+    "code":"还是",
+    "statutory":"张三",
+    "phone":"女",
+    "open":"034169852789",
+    "account":"发的的地方",
+    "number":22,
+    "state":"未营业",
+    "date":"2012-05-14",
+    "img":"http://img3.imgtn.bdimg.com/it/u=496641143,3869583512&fm=200&gp=0.jpg"
+},{
+    "id":4,
+    "name":"清洁公司",
+    "code":"第三方",
+    "statutory":"王五",
+    "phone":"女",
+    "open":"886413584",
+    "account":"百度倒计时",
+    "number":22,
+    "state":"未营业",
+    "date":"2012-05-14",
+    "img":"http://img0.imgtn.bdimg.com/it/u=1438900709,1922956651&fm=200&gp=0.jpg"
+},{
+    "id":5,
+    "name":"家政公司",
+    "code":"发的",
+    "statutory":"张三",
+    "phone":"男",
+    "open":"9454713145",
+    "account":"但是斯柯达发",
+    "number":22,
+    "state":"未营业",
+    "date":"2012-05-14",
+    "img":"http://img1.imgtn.bdimg.com/it/u=1233278727,1565848090&fm=26&gp=0.jpg"
+},{
+    "id":6,
+    "name":"清洁公司",
+    "code":"到付",
+    "statutory":"王五",
+    "phone":"女",
+    "open":"556487486541",
+    "account":"大幅度",
+    "number":22,
+    "state":"未营业",
+    "date":"2012-05-14",
+    "img":"http://img3.imgtn.bdimg.com/it/u=496641143,3869583512&fm=200&gp=0.jpg"
+}]
