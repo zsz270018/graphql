@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body,html,#root,.App{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.App-header {
+ width: 100%;
+ height: 70px;
+ display: flex;
+ line-height: 70px;
+ /* padding-left: 18.8%; */
+}
+.App-header p:nth-child(1){
+  font-size: 28px;
+  color: #00272C;
+  margin-left: 18.8%;
+}
+.App-header p:nth-child(1) span{
+  font-size: 40px;
+  color: #0094CE;
+}
+.App-header p:nth-child(2){
+  margin-left: 25%;
+}
+.App-header p:nth-child(2) a{
+  font-size: 18px;
+  color: #333333;
+  margin-right: 50px;
+}
+.App-header p:nth-child(3){
+  margin-right: 88px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
